@@ -1,0 +1,20 @@
+{
+  "name": "takehome-auto-matching",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:reset": "tsx scripts/reset.ts",
+    "start": "tsx main.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
